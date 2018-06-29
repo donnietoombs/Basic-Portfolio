@@ -1,0 +1,166 @@
+body {
+  background: url(../images/light-grey-terrazzo.png);
+}
+
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: #ffffff;
+  width: 100%;
+  height: 75px;
+  border: 3px solid #cccccc;
+  margin-bottom: 30px;
+}
+
+.nameclass {
+  vertical-align: middle;
+  height: 75px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #4aaaa5;
+  float: left; 
+  line-height: 75px;  
+  font-size: 25px;
+  color: #ffffff;
+  width: 200px;
+}
+
+.navbar{
+  float: right;
+  line-height: 75px;
+  vertical-align: middle;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #777777;
+}
+
+a{
+text-decoration: none;
+font-size: 20px;
+}
+
+a:link, a:visited, a:hover{
+  color: #777777;
+}
+
+.containerbody {
+  padding-top: 125px;
+  width: 960px;
+  margin: auto;
+  margin-bottom:50px;
+}
+
+.contentbox {
+  position: relative;
+  float: left;
+  padding: 30;
+  width: 94%;
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  height: 550px;
+  margin-top: 50px;
+}
+
+.mypic{
+  padding: inherit;
+  position: absolute;
+  top: 7%;
+  left:0%;    
+  height: 150px;
+  width: 150px;
+}
+
+
+.mainhead {
+  padding: inherit;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  height: 14;
+}
+
+.headttle{
+  vertical-align: middle;
+  height: 75px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  float: left; 
+  line-height: 75px;  
+  font-size: 25px;
+  color: #4aaaa5;
+}
+
+#texthead{
+font-size: 24px;  
+font-weight: bolder;
+color: #4aaaa5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sect1 {
+  position: absolute;
+  top: 15%;
+  left: 36px;
+  bottom: 8%;
+  width: 92%;
+  border-top-style: solid;
+  border-top-color: #dddddd;
+  border-top-width: 2px;
+}
+
+.textbox1 {
+  position: absolute;
+  top: 7%;
+  left: 18%;
+  width: 82%;
+  height: 150px;
+}
+
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:22px;
+  color: #777777;
+  line-height: 1.4;
+}
+
+.textbox2 {
+  position: absolute;
+  top: 44%;
+  left: 0%;
+  width: 100%;
+  height: 223px;
+}
+
+.text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:22px;
+  color: #777777;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #666666;
+  border-top: #4aaaa5 3px solid;
+  height:75px;
+  color:whitesmoke;
+  text-align: center;
+  vertical-align: center;
+  line-height: 75px;
+}
+
+.containerfoot {
+  
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
