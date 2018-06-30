@@ -1,7 +1,8 @@
 body {
   background: url(../images/light-grey-terrazzo.png);
-  overflow:scroll;
-}
+  overflow: scroll;
+} 
+
 
 .container {
     width: 960px;
